@@ -6,7 +6,7 @@ $(call inherit-product, vendor/fusion/config/common_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/fusion/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := fusionsp_d851
+PRODUCT_NAME := d851
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
